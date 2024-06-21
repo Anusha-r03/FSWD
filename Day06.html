@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabels and Input Tags</title>
+    <style>
+        table, th, td {
+            border: 5px solid blueviolet;
+            border-collapse: collapse;
+            align-items: center;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Input Tags -->
+    <label>User Name:</label>  
+    <input type="text" placeholder="Enter User Name" required>
+
+    <br><br>
+
+    <label>Password:&nbsp;&nbsp;&nbsp;</label> 
+    <input type="password" placeholder="Enter Password" required>
+    <br><br>
+    <label>Gender:</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="checkbox" name="gender">none
+    <hr>
+
+    <!--Tables-->
+    <table> 
+        <!-- tr:table row -->
+         <!-- rowSpan, colSpan -->
+    
+        <tr>
+            <th>Company</th>
+            <th>Email</th>
+            <th>Phone No.</th>
+            <th>About Us</th>
+        </tr>
+        <tr>
+            <td colspan="2">Wipro</td>
+            <!-- <td>abc@wipro.com</td> -->
+            <td>934567890</td>
+            <td>Wipro Ltd</td>
+        </tr>
+        <tr>
+            <td rowspan="2">NASA</td>
+            <td>xyz@nasa.com</td>
+            <td>987654372</td>
+            <td>Nasa Ltd</td>
+        </tr>
+        <tr>
+            <!-- <td>DevTown</td> -->
+            <td>xyz@devtown.com</td>
+            <td>9653783941</td>
+            <td>Devtown Ltd</td>
+        </tr>
+        <!-- Cell -->
+    </table>
+
+</body>
+</html>

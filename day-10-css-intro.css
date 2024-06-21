@@ -1,0 +1,17 @@
+span{
+    background-color: pink;
+    color:purple;
+    border: 2px solid skyblue;
+    border-radius: 25%;
+}
+/*
+CSS Selectors
+    >> Universal selector(*)
+    >> ID Selector(#)
+    >> Class Selector(.)
+    >> Element Selector
+    >> Selector List
+    >> Descendant Selector
+    >> Direct child Selector
+
+*/ 

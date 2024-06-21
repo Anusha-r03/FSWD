@@ -1,0 +1,38 @@
+/*  
+inline>external>internal
+*/
+
+/* h2,p{
+    background-color:yellow;
+    color:rgb(247, 18, 247);
+    border: 2px dashed orange;
+}
+/* ID Selector */
+/* #Hashcount4{
+    background-color:skyblue;
+    color:rgb(247, 18, 247);
+    border: 2px solid orange;
+    border-radius: 25%;
+}
+/* Class Selector */
+/*.h2ClassSelector{
+     background-color:skyblue;
+    color:rgb(247, 18, 247);
+    border: 2px solid orange;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}  */ 
+
+/*Descendant Selector*/
+/* li a{
+    color: white;
+    background:black;
+} */
+
+h3{
+    border: 2px solid black;
+    padding: 20px;
+    margin:20%;
+    
+}

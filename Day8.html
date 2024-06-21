@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms in Html</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><label>User Name:</label></td>
+                <td><input type="text" placeholder="Enter User Name" value="Anusha" required/></td>
+            </tr>
+
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="text" placeholder="Enter Password"  required/></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender"><label>Male</label>
+                    <input type="radio" name="gender"><label>Female</label>
+                    <input type="radio" name="gender"><label>Prefer not to specify </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Date of Birth:</label></td>
+                <td><input type="date" required/> </td>
+            </tr>
+
+            <tr>
+                <td><label>Courses:</label></td>
+                <td>
+                    <input type="checkbox" value="c" name="Course" checked/><lable>C</lable>
+                    <input type="checkbox" value="java" name="Course" /><lable>Java</lable>
+                    <input type="checkbox" value="python" name="Course" checked/><lable>Python</lable>
+                    <input type="checkbox" value="cpp" name="Course"/><lable>C++</lable>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Choose Branch</label></td>
+            <td>
+                <select>
+                    <option></option>
+                    <option value="cse">CSE</option>
+                    <option value="ise">ISE</option>
+                    <option value="ece">ECE</option>
+                    <option value="eee">EEE</option>
+                </select>
+            </td>
+            </tr>
+
+            <tr>
+                <td><label>File:</label></td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit"/>
+                <input type="reset"/></td>
+            </tr>
+
+        </table>
+
+
+        <br><hr/>
+
+        <!-- Forms -->
+        <form>
+            <label>User Name:</label>
+            <input type="text" placeholder="Enter User Name" value="Anusha" required/>
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Password" required/> 
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"><label>Male</label>
+            <input type="radio" name="gender"><label>Female</label>
+            <input type="radio" name="gender"><label>Prefer not to specify </label>
+            <br><br>
+            
+            <label>Date of Birth</label>
+            <input type="date" required/> 
+            <br><br>
+
+            <label>Courses:</label>
+            <input type="checkbox" value="c" name="Course" checked/><lable>C</lable>
+            <input type="checkbox" value="java" name="Course" /><lable>Java</lable>
+            <input type="checkbox" value="python" name="Course" checked/><lable>Python</lable>
+            <input type="checkbox" value="cpp" name="Course"/><lable>C++</lable>
+            <br/><br/>
+
+            <label>Choose Branch</label>
+            <select>
+                <option></option>
+                <option value="cse">CSE</option>
+                <option value="ise">ISE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+            </select>
+            <br/><br/>
+
+            <input type="submit"/>
+            <input type="reset"/>
+        </form>
+    </body>
+</html>

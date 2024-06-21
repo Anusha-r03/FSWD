@@ -1,0 +1,72 @@
+.box{
+    background-color: black;
+    height: 100vh;  /* entire height- view Height*/
+    width: 100vw;   /*entire width- view width*/
+}
+.ball{
+    height: 120px;
+    width: 120px;
+    border-radius:100%;
+    background-color: yellow;
+    position:relative;
+    top:100px;
+    left:50px;
+}
+
+
+.ball:hover{
+    animation: moveTheBall 5s ease-in-out forwards;
+}
+
+@keyframes moveTheBall{ 
+
+     25% /*(25*5)/100 for 5s*/{
+        transform: translate(400%,0);
+     }
+     50%{
+        transform: translate(400%,400%);
+        background-color: aqua;
+        border-radius:12%; 
+     }
+     75%{
+        transform: translate(0,400%);
+        background-color: aliceblue;
+        border-radius: 25%;
+     }
+     100%{
+        transform: translate(0,0);
+     }
+}  
+
+/* Media Queries */
+
+/* for Max-width max value should be at the top */
+
+/* Screen size is in the range of 400-00 */
+/* @media only screen and (max-width: 800px) {
+   h2{
+      color:yellow;
+   }
+}
+/* Screen size is in the range of 0-400 */
+/* @media screen and (max-width: 400px) {
+    h2{
+       color:red;
+    }
+ }  */ 
+
+  /* for Min-width min value should be at the top */
+ @media screen and (min-width: 400px){
+
+   h2{
+      color:blueviolet;
+      font-size: 20px;
+   }
+ }
+ @media screen and (min-width: 600px){
+
+   h2{
+      color:orangered;
+      font-size: 20px;
+   }
+ }

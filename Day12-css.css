@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    background-color: aqua;
+    color:white;
+    border:5px dotted red;
+    /* padding: 20px; */
+    padding: 20px 20px 20px 80px;
+    margin: 0 0 0 20px;
+    /* Top, Right, Bottom, Left - In a clock wise direction   */
+}
+/* 
+    Padding -> Internal to box/border
+    Margin -> External to box/border
+
+*/
+/* Block Style */
+.displayInCss1{
+    display: block;
+    background-color: Yellow;
+    color: blueviolet;
+    
+}
+/* Inline Style */
+.displayInCss2{
+    display: inline-block;/*when inline-block is used u can also add height and width*/
+    background-color: pink;
+    color: blueviolet;
+    height:50px;  /*this height is will not be abblied for inline*/ 
+}
+
+/* 1.Static Position: 
+    >> Its by default
+    >> just occupies the empty space
+*/
+/* .positionInCSS{
+    position: static;
+    background-color: aquamarine;
+    color: blue;
+    border: 5px solid orangered ;
+} */
+
+/* 2.Relative:
+        >>Its relative to its original position /static/default or to move that part   
+        >> Offset( top, right, bottom, left)     
+*/
+/* .positionInCSS{
+    position: relative;
+    background-color: aquamarine;
+    color: blue;
+    border: 5px solid orangered ;
+    bottom: 50px;
+    left: 0px;
+} */
+  
+/* 3.Fixed : Like a freeze pane, Where the highlighted section will be fiexed to a specific position even on scrolling either of the direction*/
+/* .positionInCSS{
+    position: fixed;
+    background-color: aquamarine;
+    color: blue;
+    border: 5px solid orangered ;
+    top: 15px;
+    left: 0px;
+} */
+
+/* 4.Absolute : Its should have a parent with position relative
+    >> It should always have a parent
+    >> The parent should be of position relative
+    >> The offset values are wrt the parent not with respect to the entire UI 
+
+    ---------------------------------------------------------
+
+    >> If we don't have any parent for position:absolute
+    >> Then by default it considers body as the parent
+    >> And body exactly acts as relative in nature
+*/
+/* #parent{
+    position :relative;
+    height: 250px;
+    width: 250px;
+    border: 2px dashed blue;
+}
+
+.position{
+    position: absolute;
+    background-color: aquamarine;
+    color: blue;
+    border: 5px solid orangered;
+    right:2px;
+    bottom:2px;
+    
+} */ 
+
+/*  5.Sticky:
+        >> It will be scrolled to certain extent and later it just gets fixed or sticked to the position.
+*/
+.position{
+    position: sticky;
+    background-color: aquamarine;
+    color: blue;
+    border: 5px solid orangered;
+    top:200px;
+    left:50px;
+    
+}
